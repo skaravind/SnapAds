@@ -22,7 +22,7 @@ from django.conf import settings
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	url('index', views.index, name='index'),
+	url('', views.index, name='index'),
 ]
 
 
